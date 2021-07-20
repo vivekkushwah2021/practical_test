@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">PracticalApp</string>
+    <string name="submit">Submit</string>
+    <string name="enter_valid_number">Please enter valid number</string>
+    <string name="won_game">You won the game</string>
 </resources>
