@@ -10,9 +10,8 @@ class PageViewModel :ViewModel() {
 
     var userData:LiveData<UserModel> = MutableLiveData<UserModel>()
 
-    private fun getUser(page:Int){
-        Repostiary.buildService()
-
+    fun getUser(page:Int){
+        userData = Repostiary.getUser(page)
     }
 
 }
